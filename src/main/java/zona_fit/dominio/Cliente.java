@@ -1,4 +1,4 @@
-package zona_fit.dominio;
+.package zona_fit.dominio;
 
 import java.util.Objects;
 
@@ -65,7 +65,7 @@ public class Cliente {
                 ", membresia=" + membresia +
                 '}';
     }
-
+//Dive deeper into hashCode & equals
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
