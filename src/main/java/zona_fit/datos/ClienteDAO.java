@@ -13,7 +13,7 @@ public class ClienteDAO implements IClienteDAO{
     @Override
     public List<Cliente> listarClientes() {
         List<Cliente> clientes = new ArrayList<>();
-        PreparedStatement ps;
+        PreparedStatement ps; //dive deeper into rs, ps & con
         ResultSet rs;
         Connection con = Conexion.getConnection();
         var sql = "SELECT * FROM cliente ORDER BY id";
