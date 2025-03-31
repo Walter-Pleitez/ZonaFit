@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class ZonaFitApp {
     public static void main(String[] args) {
         zonafitApp();
+//Analize each case
     }
 
     private static void zonafitApp(){
