@@ -12,7 +12,7 @@ public class Conexion {
         var password = "admin";
 
         try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");//dive deeper into this concept
             conexion = DriverManager.getConnection(url, usuario, password);
         }catch(Exception e){
             System.out.println("Error al conectarnos a la BD: " + e.getMessage());
