@@ -12,7 +12,7 @@ public class ZonaFitApp {
 //Analize each case
     }
 
-    private static void zonafitApp(){
+    private static void zonafitApp(){//This handle the bucle
         var salir = false;
         var consola = new Scanner(System.in);
         //CREAMOS OBJETO DE LA CLASE CLIENTE DAO
