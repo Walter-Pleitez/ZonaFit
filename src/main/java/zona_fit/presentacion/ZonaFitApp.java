@@ -40,7 +40,7 @@ public class ZonaFitApp {
                 """);
         return Integer.parseInt(consola.nextLine());
     }
-    private static boolean ejecutarOpciones(Scanner consola, int opcion, IClienteDAO clienteDAO){
+    private static boolean ejecutarOpciones(Scanner consola, int opcion, IClienteDAO clienteDAO){//this handle the switch
         var salir = false;
         switch(opcion){
             case 1 -> {
